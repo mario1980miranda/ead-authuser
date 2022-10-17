@@ -58,7 +58,6 @@ public class CourseClient {
         searchResult = result.getBody().getContent();
 
         log.debug("Response number of elements: {}", searchResult.size());
-
         log.info("Ending request /courses userId {}", userId);
 
         return result.getBody();
